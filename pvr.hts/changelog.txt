@@ -49,7 +49,7 @@
 - fixed: Autorec: Start and stop time handling.
 - fixed: LocaltimeToUTC conversion (timer settings clock display incorrect).
 - fixed: Several issues with predictive tuning.
-- added: build: Automatically fill in platform and library name.
+- added: build: Automatically fill in p8-platform and library name.
 - fixed: Use epg data only for creation of epg-based timers.
 - improved: Do not try to reconnect to tvh while suspending or not fully awake again.
 
@@ -97,7 +97,7 @@
 - added: support for creating repeating timers, aka time schedules
 - fixed: conditions for addon restart after settings changes
 - internal: fixed build system regressions introduced with move to cmake
-- internal: updated to use libplatform
+- internal: updated to use libp8-platform
 
 2.1.7
 - added: support for radio channel groups
